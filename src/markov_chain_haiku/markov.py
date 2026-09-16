@@ -81,7 +81,7 @@ def writeHaiku(corpusM1,corpusM2):
     line = haiku
     prefix = (first,second)
     i = 0
-    while(i < 3):  # Veldig mange problemer her i denne løkken, må prøve å gjøre alt på nytt. 
+    while(i < 3):  
         if(i == 1):
             targetSyllables = 7
         else: 
